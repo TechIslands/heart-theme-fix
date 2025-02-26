@@ -8,6 +8,11 @@
 heart[https://www.cnblogs.com/yjlaugus/p/13466375.html]基于主题atum[https://github.com/cjunn/cnblog_theme_atum/]二次开发
 如果你想使用本博客主题样式，并希望能得到远程推送更新，只需查看快速部署。在快速部署因为更改了app.js部分源码，功能和原版主题[https://github.com/cjunn/cnblog_theme_atum/]略有差异，若只想改动样式，请查看 只样式引入（建议）。
 
+## 参考资源
+
+- [美化主题atum](https://github.com/cjunn/cnblog_theme_atum)
+- [博客园主题快速部署教程](https://www.cnblogs.com/yjlaugus/p/13466375.html)
+
 ### 修复原因
 - 由于gitee暂停了pages服务，导致静态资源无法访问，atum主题项目地址从gitee变更为GitHub，由于heart主题作者早已经停更，导致heart主题项目无人维护，导致静态资源托管地址失效
 
@@ -37,8 +42,7 @@ img文件夹与releases文件夹将要被重新部署到GitHub上，cdn加速地
 
 
 
-<!-- heart主题快速部署方法
-<!-- 
+heart主题快速部署方法
 
 //请把以下代码粘贴在页首或者侧边栏即可快速部署，若需要更多个性化配置，请继续看下文详细配置
 <script type="text/javascript">
@@ -121,12 +125,9 @@ title: '投喂',
 url: '/c/subject/p/7857317.html',
 icon: 'iconziyuan'
 }];
-关于图标您可以在审查元素 找到。 -->
+关于图标您可以在审查元素 找到。
 
-
-
-atum主题急速部署
-<!-- 
+<!-- atum主题急速部署
 前提：已经开通js权限，没开通的可以向博客园官方申请开通。
 
 ###代码块部署位置
@@ -211,9 +212,3 @@ let adDisplay="<div class=\"blog-cloud-ad-item\">\n" +
   "                 onclick=\"window.open('https://url.cn/OLi4lNzq')\">\n" +
   "          </div>";
 上方是可配置的参数目前的默认参数值。可以根据目前自己所需要的修改相关参数值，然后设置进全局参数__BLOG_CONFIG__中。 -->
- -->
-
-## 参考资源
-
-- [美化主题atum](https://github.com/cjunn/cnblog_theme_atum)
-- [博客园主题快速部署教程](https://www.cnblogs.com/yjlaugus/p/13466375.html)
