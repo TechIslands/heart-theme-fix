@@ -28,7 +28,7 @@ webpackJsonp([1], {
         var n = i("7+uW"),
             s = i("woOf"),
             a = i.n(s),
-            o = "https://yjlaugus.gitee.io/blog",
+            o = "https://cdn.jsdelivr.net/gh/TechIslands/heart-theme-fix@main",
             r = {
                 openDev: !1,
                 blogAcc: "cjunn",
@@ -49,7 +49,7 @@ webpackJsonp([1], {
                 ingTitle: "你的一字一句犹如刀疤划心上，我的一举一动随你改变多荒唐。",
                 blogFriendList: [],
                 musicIds: ["1382596189", "108281"],
-                musicApiUrl: "https://api.i-meto.com/meting/api?server=tencent&type=:type&id=:id&r=:r",
+                musicApiUrl: "https://api.i-meto.com/meting/api?server=netease&type=:type&id=:id&r=:r",
                 qq: "592571519",
                 email: "592571519@qq.com",
                 github: "cjunn",
@@ -80,10 +80,10 @@ webpackJsonp([1], {
                     icon: "iconziyuan"
                 }],
                 avatarSign: " ↗↗点击头像关注我。",
-                headBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/ing/autorbimg.jpg",
-                bigBackImg: "https://cjunn.gitee.io/blog_theme_atum/img/body/background.jpg",
-                aboutmeHtml: "<img src='https://cjunn.gitee.io/blog_theme_atum/img/ing/aboutme.jpg'/>",
-				aboutCouple: "<div class='textwidget'><div id='love' style='width: 100%; height: 100px; text-align: center; font-size: 1rem;'> <div id='lovenyhImage' style='margin: 0 auto;'><a href='#' target='_blank'><img src='https://yjlaugus.gitee.io/blog/img/body/girl.jpg' alt='love' style='width: 60px; border-radius: 50%;'></a><a href='#' target='_blank'><img src='https://yjlaugus.gitee.io/blog/img/body/z.webp' alt='love' style='width: 60px; border-radius: 50%;'></a><a href='#' target='_blank'><img src='https://yjlaugus.gitee.io/blog/img/body/boy.jpg' alt='love' style='width: 60px; border-radius: 50%;'></a></div><p id='elapseClock' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'>我们相恋(刷新页面看天数呀)</p></div></div>",
+                headBackImg: "https://cdn.jsdelivr.net/gh/cjunn/cnblog_theme_atum@master/dist/img/ing/autorbimg.jpg",
+                bigBackImg: "https://cdn.jsdelivr.net/gh/cjunn/cnblog_theme_atum@master/dist/img/body/background.jpg",
+                aboutmeHtml: "<img src='https://cdn.jsdelivr.net/gh/cjunn/cnblog_theme_atum@master/dist/img/ing/aboutme.jpg'/>",
+				aboutCouple: "<div class='textwidget'><div id='love' style='width: 100%; height: 100px; text-align: center; font-size: 1rem;'> <div id='lovenyhImage' style='margin: 0 auto;'><a href='#' target='_blank'><img src='https://cdn.jsdelivr.net/gh/TechIslands/heart-theme-fix@main/img/body/girl.jpg' alt='love' style='width: 60px; border-radius: 50%;'></a><a href='#' target='_blank'><img src='https://cdn.jsdelivr.net/gh/TechIslands/heart-theme-fix@main/img/body/z.webp' alt='love' style='width: 60px; border-radius: 50%;'></a><a href='#' target='_blank'><img src='https://cdn.jsdelivr.net/gh/TechIslands/heart-theme-fix@main/img/body/boy.jpg' alt='love' style='width: 60px; border-radius: 50%;'></a></div><p id='elapseClock' style='font-size: 0.8rem;    margin-top: 16px;  background: linear-gradient(to right, red, blue);-webkit-background-clip: text;color: transparent;'>我们相恋(刷新页面看天数呀)</p></div></div>",
                 blogUrlPre: "https://www.cnblogs.com/",
 					faceIcon: [{
                     name: "头条",
@@ -224,7 +224,7 @@ webpackJsonp([1], {
                             to: "/",
                             tag: "span"
                         }
-                    }, [t._v(" " + t._s(t.blogName))])], 1)]), t._v(" "), i("div", {
+                    }, [t._v(" " + t._s(t.blogName))])], 1)]), t._v(" "), i("div", {
                         staticClass: "min-screen",
                         on: {
                             click: function(e) {
@@ -1712,7 +1712,7 @@ webpackJsonp([1], {
                             to: t.VUE_CTX + "/author",
                             tag: "img",
                             src: t.avatarObj.avatar,
-                            //src: "https://yjlaugus.gitee.io/blog/img/body/avatar.gif",
+                            //src: "https://cdn.jsdelivr.net/gh/TechIslands/heart-theme-fix@main/img/body/avatar.gif",
                             onerror: "this.src='" + t.avatarObj.face + "';this.onerror=null;"
                             
                         }
@@ -1724,7 +1724,7 @@ webpackJsonp([1], {
                         staticClass: "icon iconfont angeldown1"
                     })]), t._v(" "), i("div", {
                         staticClass: "sign-wrap panel-aside-color"
-                    }, [i("span", [t._v(t._s(t.avatarSign))])])])], 1)])
+                    }, [i("span", [t._v(t._s(t.avatarSign))])])], 1)])
                 },
                 staticRenderFns: []
             };
@@ -2404,7 +2404,7 @@ webpackJsonp([1], {
                         staticClass: "info-item-right"
                     }, [i("span", {
                         staticClass: "info-item-bg"
-                    }, [i("span", [t._v(t._s(t.info.focus))])])])])])])])])
+                    }, [i("span", [t._v(t._s(t.info.focus))])])])])])])])])])
                 },
                 staticRenderFns: [function() {
                     var t = this.$createElement,
@@ -2875,7 +2875,7 @@ webpackJsonp([1], {
                 data: function() {
                     return {
                         list: [{
-                            img: "https://yjlaugus.gitee.io/blog/img/body/ad1.jpg",
+                            img: "https://cdn.jsdelivr.net/gh/TechIslands/heart-theme-fix@main/img/body/ad1.jpg",
                             url: "https://space.bilibili.com/89835980"
                         }]
                     }
@@ -3968,7 +3968,7 @@ webpackJsonp([1], {
                         }
                     }, [i("span", {
                         staticClass: "icon iconfont face2"
-                    }), t._v(" 表情")])])]), t._v(" "), i("div", {
+                    }), t._v("表情")])])]), t._v(" "), i("div", {
                         staticClass: "comment-btn"
                     }, ["" == t.commentId ? i("span", {
                         on: {
